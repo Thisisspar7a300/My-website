@@ -1,0 +1,99 @@
+.head{
+     background-image: url(./assets/keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.head2{
+    background-image: url(./assets/keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+.title{
+    color: azure;
+    font-family: 'Nerko One';
+
+}
+.par{
+    color: azure;
+    font-family:'Roboto';
+    font-size: medium;
+}
+.par2{
+    font-family: 'Roboto';
+    font-size: medium;
+}
+.footer-link{
+    color: azure;
+}
+a.footer-link{
+    color: azure;
+}
+.me{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.h2{
+    color: orangered;
+    font-family: 'Nerko One';  
+}
+h2.h2{
+    color: orangered;
+    font-family: 'Nerko One'; 
+}
+.btn{
+    background-color: orangered;
+    border: 0;
+}
+p{
+    font-family:'Roboto';
+    font-size: medium;
+}
+.computer{
+    height: 200px;
+    width: 200px;   
+}
+.computer1{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.computer2{
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 40%;
+}
+@media(max-width: 1200px){
+    .computer2{
+        margin: 0;
+        padding: 0;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        margin-left: 25%;
+    }
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+    text-align: left;
+   column-gap: 10px;
+}
+.container-r{
+    display: flex;
+    flex-direction: column;
+ justify-content: flex-end;
+ align-items: center;
+ 
+ margin: 0;
+ padding: 0;
+}
